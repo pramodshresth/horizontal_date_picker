@@ -1,12 +1,18 @@
 Description:
-A Flutter package for displaying a horizontal date picker, making it easy for users to select dates in a horizontal scrolling manner. This package is designed to enhance the user experience by providing an intuitive way to navigate and choose dates.
+A Flutter package for displaying a horizontal date picker, making it easy for users to select dates
+in a horizontal scrolling manner. This package is designed to enhance the user experience by
+providing an intuitive way to navigate and choose dates.
 
 Features:
 Horizontal scrolling for easy date navigation.
 Customizable date format and styling.
 Support for selecting a single date.
 
-// Example usage for a basic date selection
+# Examples
+
+### Quick Example
+
+```
 HorizontalDatePicker(
  onDateTap: (p0) {},
  startDate: DateTime.now(),
@@ -16,6 +22,7 @@ HorizontalDatePicker(
  fontSize: 20
  ),
 )
+```
 
 Customization:
 Configure styling options such as font, color, and background.
